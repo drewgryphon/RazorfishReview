@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta data-template-name="160x600">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="ad.size" content="width=160,height=600">
+    <script type="text/javascript" src="tinyscrollbar.js"></script>
+    <link rel="stylesheet" type="text/css" href="Oxc_160x600_styles.css">
+    <script type="text/javascript">
+    function initAd() {
+	  scrollBarFun();
+    }
+  </script>
+    <script type="text/javascript">
+	var clickTag = "http://www.google.com";
+	var FDAlink = "http://www.fda.gov/safety/medwatch";
+	function clickthroughFun() {
+    	window.open(clickTag);
+    }
+	function clickFDA(){
+		window.open(FDAlink);
+	}
+	function scrollBarFun()
+        {
+		    var $scrollbar = document.getElementById("scrollbar1"),   scrollbar  = tinyscrollbar($scrollbar);
+            // You can now call methods liks scrollbar.update() or scrollbar.contentPosition
+            // Here is a example how you can bind the move event to the scrollbar container.
+            $scrollbar.addEventListener("move", function()
+            {
+                console.log(scrollbar.contentPosition);
+            }, false);
+        }
+    </script>
+    </head>
+    <body onLoad="initAd();">
+    <div id="main-containerex"> 
+        <div id="animContainer">
+     	<div id="exit" onclick="javascript:clickthroughFun();"></div>
+        <div id="bgex"></div>
+        <div id="oxcLogo"></div>
+        <div id="endFrameoxcLogo"></div>
+        <div id="firstFrame_firstText"></div>
+        <div id="firstFrame_secondText"></div>
+        <div id="secondFrmaeBackground"></div>
+        
+        <div id="secondFrame_firstText"></div>
+        <div id="secondFrame_secondText"></div>
+        <div id="secondFrame_thirdText"></div>
+        <div id="secondFrame_fourthText"></div>
+        <div id="lastFrame_blueLine"></div>
+        <div id="lastFrame_text"></div>
+      </div>
+      <div id="footer" onclick="javascript:clickthroughFun();"></div>
+      <div id="scroll_text_heading" onclick="javascript:clickthroughFun();"></div>
+      <div id="collapsedPanelContainer" style="opacity: 1;">
+        <div id="scrollbar1">
+          <div class="scrollbar" id="scBarId" style="height: 170px;">
+            <div class="track" id="trackId" style="height: 170px;">
+              <div class="thumb" style="top: 0px; height: 20px;">
+                <div class="end"></div>
+              </div>
+            </div>
+          </div>
+           <div class="viewport" id="infoCont">
+           <div class="overview" style="top: 0px;">
+			 <div id="roundedContainer">
+              <p>WARNING: ADDICTION, ABUSE AND MISUSE; LIFE-THREATENING RESPIRATORY DEPRESSION; ACCIDENTAL INGESTION; NEONATAL OPIOID WITHDRAWAL SYNDROME; and CYTOCHROME P450 3A4 INTERACTION</p>
+               <p class="bHead">Addiction, Abuse, and Misuse</p>
+               <p class="bSpace">OxyContin® exposes patients and other users to the risks of opioid addiction, abuse and misuse, which can lead to overdose and death. Assess each patient’s risk prior to prescribing OxyContin and monitor all patients regularly for the development of these behaviors or conditions<i> [see Warnings and Precautions (5.1)].</i></p>
+         	   <p class="bHead">Life-Threatening Respiratory Depression</p>
+               <p class="bSpace">Serious, life-threatening, or fatal respiratory depression may occur with use of OxyContin. Monitor for respiratory depression, especially during initiation of OxyContin or following a dose increase. Instruct patients to swallow OxyContin tablets whole; crushing, chewing, or dissolving OxyContin tablets can cause rapid release and absorption of a potentially fatal dose of oxycodone<i> [see Warnings and Precautions (5.2)].</i> </p>
+			   <p class="bHead">Accidental Ingestion</p>
+			   <p class="bSpace">Accidental ingestion of even one dose of OxyContin, especially by children, can result in a fatal overdose of oxycodone <i>[see Warnings and Precautions (5.2)].</i></p>
+			   <p class="bHead">Neonatal Opioid Withdrawal Syndrome</p>
+			   <p class="bSpace">Prolonged use of OxyContin during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening if not recognized and treated, and requires management according to protocols developed by neonatology experts. If opioid use is required for a prolonged period in a pregnant woman, advise the patient of the risk of neonatal opioid withdrawal syndrome and ensure that appropriate treatment will be available <i>[see Warnings and Precautions (5.3)].</i></p>
+			   <p class="bHead">Cytochrome P450 3A4 Interaction</p>
+			   <p class="bSpace">The concomitant use of OxyContin with all cytochrome P450 3A4 inhibitors may result in an increase in oxycodone plasma concentrations, which could increase or prolong adverse drug effects and may cause potentially fatal respiratory depression. In addition, discontinuation of a concomitantly used cytochrome P450 3A4 inducer may result in an increase in oxycodone plasma concentration. Monitor patients receiving OxyContin and any CYP3A4 inhibitor or inducer <i>[see Warnings and Precautions (5.14) and Clinical Pharmacology (12.3)].</i></p>
+			  </div>
+              <div id="normalContainer">
+              <!--<div class="scrollTextClick" onclick="javascript:clickthroughFun();"></div>-->
+               <h1>Adult Indications<br>and Usage</h1>
+			   <p class="norText">OxyContin is indicated for the management of pain severe enough to require daily, around-the-clock, long-term opioid treatment and for which alternative treatment options are inadequate.
+			   <p class="norTextHead">Limitations of Use</p>
+			    <ul>
+                    <li class="norText">Because of the risks of addiction, abuse, and misuse with opioids, even at recommended doses, and because of the greater risks of overdose and death with extended-release opioid formulations, reserve OxyContin for use in patients for whom alternative treatment options (e.g., non-opioid analgesics or immediate-release opioids) are ineffective, not tolerated, or would be otherwise inadequate to provide sufficient management of pain </li>
+                    <li class="norText">OxyContin is not indicated as an as-needed (prn) analgesic</li>
+          		</ul>
+                <h1>Contraindications</h1>
+               	<p class="norText">OxyContin is contraindicated in patients with:</p>
+				<ul>
+                    <li class="norText">Significant respiratory depression</li>
+                    <li class="norText">Acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment</li>
+          			<li class="norText">Known or suspected paralytic ileus and gastrointestinal obstruction</li>
+                    <li class="norText">Hypersensitivity (e.g., anaphylaxis) to oxycodone</li>
+                </ul>
+                <h1>Warnings and Precautions</h1>
+               	<ul style="margin-top:-11px">
+                    <li class="norText">OxyContin contains oxycodone, a Schedule II controlled substance. OxyContin exposes users to the risks of opioid addiction, abuse, and misuse. As modified-release products such as OxyContin deliver the opioid over an extended period of time, there is a greater risk for overdose and death due to the larger amount of oxycodone present. Addiction can occur at recommended doses and if the drug is misused or abused. Assess each patient’s risk for opioid addiction, abuse or misuse prior to prescribing OxyContin and monitor all patients during therapy for the development of these behaviors or conditions.</li>
+                    <li class="norText">Instruct patients to swallow the OxyContin tablets intact. Crushing, chewing, snorting, or injecting the dissolved product could result in overdose and death.</li>
+          			<li class="norText">Serious, life-threatening, or fatal respiratory depression has been reported with modified-release opioids, even when used as recommended, and if not immediately recognized and treated, may lead to respiratory arrest and death. The risk of respiratory depression is greatest during initiation of therapy or following a dose increase; therefore, closely monitor patients for respiratory depression. Proper dosing and titration of OxyContin are essential. Overestimating the OxyContin dose when converting patients from another opioid product can result in fatal overdose with the first dose. </li>
+                    <li class="norText">Accidental ingestion of even one dose of OxyContin, especially by children, can result in respiratory depression and death due to an overdose of oxycodone.</li>
+               		<li class="norText">Prolonged use of OxyContin during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening to the neonate if not recognized and treated, and requires management according to protocols developed by neonatology experts.</li>
+               		<li class="norText">Hypotension, profound sedation, coma, respiratory depression, or death may result if OxyContin is used concomitantly with other CNS depressants, including alcohol or illicit drugs that can cause CNS depression. Start with 1/3 to 1/2 the usual dose of OxyContin, monitor patients for signs of sedation and respiratory depression, and consider using a lower dose of the concomitant CNS depressant.</li>
+                    <li class="norText">Closely monitor elderly, cachectic, and debilitated patients, and patients with chronic obstructive pulmonary disease because of increased risk of life-threatening respiratory depression. Consider the use of alternative non-opioid analgesics in patients with chronic pulmonary disease if possible.</li>
+                    <li class="norText">OxyContin may cause severe hypotension, including orthostatic hypotension and syncope in ambulatory patients. Monitor patients during dose initiation and titration. Avoid use of OxyContin in patients with circulatory shock.</li>
+              		<li class="norText">Monitor patients taking OxyContin who may be susceptible to the intracranial effects of CO2 retention for signs of sedation and respiratory depression. Avoid the use of OxyContin in patients with impaired consciousness or coma.</li>
+                    <li class="norText">OxyContin is contraindicated in patients with GI obstruction, including paralytic ileus. Use caution when prescribing OxyContin for patients who have difficulty swallowing, or have underlying GI disorders that may predispose them to obstruction. Consider use of an alternative analgesic in these patients.</li>
+                    <li class="norText">OxyContin may cause spasm of the sphincter of Oddi. Monitor patients with biliary tract disease, including acute pancreatitis, for worsening symptoms.</li>
+              		<li class="norText">OxyContin may aggravate convulsions in patients with convulsive disorders and may induce or aggravate seizures in some clinical settings. Monitor patients with a history of seizure disorders for worsened seizure control.</li>
+                    <li class="norText">Avoid the use of mixed agonist/antagonist or partial agonist analgesics in patients who have received or are receiving OxyContin, as they may reduce the analgesic effect and/or precipitate withdrawal. Do not abruptly discontinue OxyContin.</li>
+                    <li class="norText">OxyContin may impair the mental or physical abilities needed to perform potentially hazardous activities such as driving a car or operating machinery.</li>
+                    <li class="norText">Concomitant use of CYP3A4 inhibitors may prolong opioid effects. Use with CYP3A4 inducers may cause lack of efficacy or development of withdrawal symptoms. If co-administration is necessary, evaluate patients frequently and consider dose adjustments until stable drug effects are achieved.</li>
+              </ul>
+              <p class="bSpace">Please read the <span style="color:#0066cc">Full Prescribing Information</span>, including Boxed Warning. </p>
+              <p class="norText" style="margin-top:13px;
+    line-height: 15px;">To report SUSPECTED ADVERSE REACTIONS, contact Purdue Pharma L.P. at 1-888-726-7535, option 2, or FDA at 1-800-FDA-1088 or <a target="_blank" href="javascript:clickFDA();">www.fda.gov/safety/medwatch.</a></p>
+              <p class="norText" style="margin-top:13px;
+    line-height: 15px;">Intended for healthcare professionals of the United States of America only.</p>
+              <p class="norText" style="margin-top:13px;
+    line-height: 15px;">©2016 Purdue Pharma L.P., Stamford, CT 06901-3431</p>
+              <div id="scrollFooterImg" style="margin-top:15px;"><img src="scrollImg.png" width="127" height="16"/></div>
+      
+              </div>
+        
+          </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
